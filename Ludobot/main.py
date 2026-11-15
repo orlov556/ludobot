@@ -14,8 +14,8 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.exceptions import TelegramBadRequest
 
 # --- НАСТРОЙКИ ---
-BOT_TOKEN = os.getenv("BOT_TOKEN", "ТВОЙ_ТОКЕН_ЕСЛИ_НЕ_В_ПЕРЕМЕННЫХ") 
-MAIN_ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))
+BOT_TOKEN = os.getenv("9266548590:AAHZ7YiM5hnO22pRRcTKhADODkRsECvzdPo", "9266548590:AAHZ7YiM5hnO22pRRcTKhADODkRsECvzdPo") 
+MAIN_ADMIN_ID = int(os.getenv("ADMIN_ID", "5697184715"))
 DB_PATH = "/data/luck.db"
 
 logging.basicConfig(level=logging.INFO)
