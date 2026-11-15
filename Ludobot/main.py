@@ -28,7 +28,7 @@ from aiogram.exceptions import TelegramBadRequest
 # =====================================================
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "ТВОЙ_ТОКЕН_ЕСЛИ_НЕ_В_ПЕРЕМЕННЫХ")
-MAIN_ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))
+MAIN_ADMIN_ID = int(os.getenv("ADMIN_ID", "5697184715"))
 
 DB_PATH = os.getenv("DB_PATH", "/data/luck.db")
 
